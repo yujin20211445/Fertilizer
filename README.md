@@ -1,7 +1,5 @@
 # Fertilizer
 
-# Fertilizer
-
 * 수행과제<br />
 Python 코드로 스택(Stack) 구조를 완성한다.<br />
 스택 구조에 내용을 입력할 수 있도록 추가하는 함수를 push() 함수를 만든다.<br />
