@@ -8,12 +8,12 @@ class Stack:
         try:
             item = int(item)
         except ValueError:
-            print('⚠️ 숫자만 입력할 수 있습니다.')
+            print('숫자만 입력할 수 있습니다.')
             return
 
         # 스택 크기 확인
         if len(self.items) >= self.max_size:
-            print('⚠️ 비료가 가득 찼습니다. 더 이상 추가할 수 없습니다.')
+            print('비료가 가득 찼습니다. 더 이상 추가할 수 없습니다.')
             return
 
         confirm = input(f'비료 {item}개를 추가하시겠습니까? (y/n): ')
@@ -47,7 +47,7 @@ class Stack:
 
     def peek(self):
         if self.empty():
-            print('⚠️ 비료가 비어있습니다. 확인할 비료가 없습니다.')
+            print('비료가 비어있습니다. 확인할 비료가 없습니다.')
             return None
 
         confirm = input(f'마지막에 추가한 비료의 개수를 확인하시겠습니까? (y/n): ')
@@ -99,3 +99,4 @@ while True:
         break
     else:
         print('잘못된 입력입니다. 다시 시도하세요.')
+
